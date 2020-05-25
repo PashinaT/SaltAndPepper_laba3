@@ -2,13 +2,15 @@
 Calculation of π on GPU with Monte-Carlo method using CUDA
 
 ### Task definition
-Given the number of points N, generate a random distribution in (0, 0) − (1, 1) area and calculate the π number
-using CPU and GPU. The resulting π values should be printed out along with the execution times.
+Given the image of size M×N with “Salt and Pepper” noise, implement and apply a CUDA version of 9-point median filter and store the result to output image. Missing values for edge rows and columns are to be taken from nearest pixels. CUDA implementation must make use of texture memory. 
+
 
 To do this task, we need to count the number of points in circle - n_in_circle. Then find 4* n_in_circle/N.
 
 #### Input data
-• N – number of points;
+• image with "Salt and Pepper" noise
+![alt text](personGray512.bmp)
+
 #### Output data
 • The time of GPU and CPU programs execution;
 • π values calculated by GPU and CPU programs (results may be different).
