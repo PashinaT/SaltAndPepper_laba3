@@ -139,9 +139,9 @@ int main() {
 
 	unsigned int rows, cols;
 	// считали картинку 
-	float * imageAsArray = readImageGPU("person512.bmp", &rows, &cols);
+	float * imageAsArray = readImageGPU("personGray512.bmp", &rows, &cols);
 	std::cout << "Размер:" << rows << "x" << cols << std::endl;
-	BMP imgCPU = readImageCPU("person512.bmp");
+	BMP imgCPU = readImageCPU("personGray512.bmp");
 	clock_t  start_time = clock();
 	BMP outCPU = MedianFilterCPU(imgCPU);
 	clock_t  end_time = clock();
