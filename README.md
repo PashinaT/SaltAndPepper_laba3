@@ -11,7 +11,7 @@ Given the image of size M×N with “Salt and Pepper” noise, implement and app
 
 #### Output data
 
-![alt text](resultGPU.bmp)
+![alt text](resultCPU.bmp)
 
 ### Results
 
