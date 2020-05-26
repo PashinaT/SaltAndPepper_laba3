@@ -13,6 +13,8 @@ Given the image of size M×N with “Salt and Pepper” noise, implement and app
 
 ![alt text](resultCPU.bmp)
 
+The black border appears because of resizing image. This border consists of the black pixels
+
 ### Results
 
 The average time in milliseconds for 5 measurements for the same image with different size
